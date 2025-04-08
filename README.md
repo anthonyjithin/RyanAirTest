@@ -29,7 +29,7 @@ Before running the project, ensure you have:
 
 Clone the repository:
 ```bash
-git clone https://github.com/anthonyjithin/GenesysProjectDocker2.git
+git clone https://github.com/anthonyjithin/RyanAirTest
 ```
 
 Start Selenium Grid on Project folder
@@ -44,12 +44,12 @@ execution_env=remote
 
 Build the Docker image:
 ```bash
-docker build -t demo-docker-proj .
+docker build -t ryanair-test .
 ```
 
 Run the Docker container:
 ```bash
-docker run --network host demo-docker-proj:latest
+docke run --network host ryanair-test:latest
 ```
 
 
@@ -57,11 +57,11 @@ docker run --network host demo-docker-proj:latest
 
 Clone the repository:
 ```bash
-git clone https://github.com/anthonyjithin/GenesysProjectDocker2.git
+git clone https://github.com/anthonyjithin/RyanAirTest
 ```
 Navigate to the project directory:
 ```bash
-cd GenesysProjectDocker2
+cd RyanAirTest
 ```
 
 Make sure the execution config is set for local in config.properties
@@ -96,5 +96,6 @@ After local test execution, ExtentReports generates test reports in the `report`
 
 To view the report:
 - Open `RyanAir_flightSelectionTest.html` in your browser.
+
 
 
