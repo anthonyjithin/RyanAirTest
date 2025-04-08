@@ -59,6 +59,11 @@ public class TestUtility extends BasePage{
 			wait.until(ExpectedConditions.presenceOfElementLocated(locator));
 		}
 		
+		// Method to assert that the page with suggested flights is loaded with correct date and number of persons
+		// the element returns a string which contains all the details of departure date, return date and passeneger count
+		// the strings are split and stored in a String array. Then each of the values are extracted from the string array
+		// with all whitespaces removed. These string are then compared with the expected departure date, expected return date and
+		// expected passenger count passed from the method call
 		 public static void verifyTripSummary(String expDepartureDate, String expReturnDate, String expPassengerCount) throws IOException {
 			 FlightSelectionPage flightPage = new FlightSelectionPage();
 			 String sectionText = flightPage.getSection().getText().trim();
