@@ -32,6 +32,11 @@ Clone the repository:
 git clone https://github.com/anthonyjithin/RyanAirTest
 ```
 
+Navigate to the project directory:
+```bash
+cd RyanAirTest
+```
+
 Start Selenium Grid on Project folder
 ```bash
 docker-compose up
