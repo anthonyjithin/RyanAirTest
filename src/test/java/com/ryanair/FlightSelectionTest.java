@@ -103,7 +103,6 @@ public class FlightSelectionTest extends TestUtility {
 		ExtentManager.pass("Departure flight selection completed");
 
 		//Assertion to check whether NAP-DUB flight has been selected	
-		System.out.println(flightPage.getArrivalFlightText());
 		Assert.assertTrue(flightPage.getArrivalFlightText().contains("Naples to Dublin"), "Naples to Dublin flight has not been selected");
 		logger.info("Naples to Dublin flight has been selected successfully");	
 		

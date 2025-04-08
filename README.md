@@ -54,7 +54,7 @@ docker build -t ryanair-test .
 
 Run the Docker container:
 ```bash
-docke run --network host ryanair-test:latest
+docker run --network host --rm ryanair-test:latest
 ```
 
 
