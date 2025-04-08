@@ -69,7 +69,7 @@ Navigate to the project directory:
 cd RyanAirTest
 ```
 
-Make sure the execution config is set for local in config.properties
+Make sure the execution config is set for local in config.properties- location: src/main/java/resources/config.properties
 ```bash
 execution_env=local
 ```
