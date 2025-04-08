@@ -1,0 +1,6 @@
+com\ryanair\FlightSelectionTest.class
+utility\TestUtility.class
+pageObjects\BagSelectionPage.class
+pageObjects\FlightSelectionPage.class
+pageObjects\HomePage.class
+pageObjects\SeatSelectionPage.class
