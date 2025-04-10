@@ -2,52 +2,12 @@
 <testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-08T14:41:38 IST" name="Suite" finished-at="2025-04-08T14:42:40 IST" duration-ms="61948">
+  <suite started-at="2025-04-10T16:59:14 IST" name="Suite" finished-at="2025-04-10T16:59:54 IST" duration-ms="40270">
     <groups>
     </groups>
-    <test started-at="2025-04-08T14:41:38 IST" name="Linux-firefox" finished-at="2025-04-08T14:42:36 IST" duration-ms="57574">
+    <test started-at="2025-04-10T16:59:14 IST" name="Linux-chrome" finished-at="2025-04-10T16:59:47 IST" duration-ms="33087">
       <class name="com.ryanair.FlightSelectionTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.ryanair.FlightSelectionTest@55493582]" started-at="2025-04-08T14:41:39 IST" name="setup" finished-at="2025-04-08T14:41:52 IST" duration-ms="13375" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Linux]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="searchFlightTest()[pri:0, instance:com.ryanair.FlightSelectionTest@55493582]" started-at="2025-04-08T14:41:52 IST" name="searchFlightTest" finished-at="2025-04-08T14:42:20 IST" duration-ms="28244" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchFlightTest -->
-        <test-method signature="selectFlightTest()[pri:0, instance:com.ryanair.FlightSelectionTest@55493582]" started-at="2025-04-08T14:42:20 IST" name="selectFlightTest" finished-at="2025-04-08T14:42:27 IST" depends-on-methods="com.ryanair.FlightSelectionTest.searchFlightTest" duration-ms="6539" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectFlightTest -->
-        <test-method signature="selectSeatTest()[pri:0, instance:com.ryanair.FlightSelectionTest@55493582]" started-at="2025-04-08T14:42:27 IST" name="selectSeatTest" finished-at="2025-04-08T14:42:34 IST" depends-on-methods="com.ryanair.FlightSelectionTest.selectFlightTest" duration-ms="7373" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectSeatTest -->
-        <test-method signature="bagSelectionTest()[pri:0, instance:com.ryanair.FlightSelectionTest@55493582]" started-at="2025-04-08T14:42:34 IST" name="bagSelectionTest" finished-at="2025-04-08T14:42:35 IST" depends-on-methods="com.ryanair.FlightSelectionTest.selectSeatTest" duration-ms="519" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bagSelectionTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ryanair.FlightSelectionTest@55493582]" started-at="2025-04-08T14:42:35 IST" name="tearDown" finished-at="2025-04-08T14:42:36 IST" duration-ms="1250" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.ryanair.FlightSelectionTest -->
-    </test> <!-- Linux-firefox -->
-    <test started-at="2025-04-08T14:41:38 IST" name="Linux-chrome" finished-at="2025-04-08T14:42:40 IST" duration-ms="61948">
-      <class name="com.ryanair.FlightSelectionTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.ryanair.FlightSelectionTest@4f0100a7]" started-at="2025-04-08T14:41:39 IST" name="setup" finished-at="2025-04-08T14:41:45 IST" duration-ms="6250" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.ryanair.FlightSelectionTest@2a76840c]" started-at="2025-04-10T16:59:14 IST" name="setup" finished-at="2025-04-10T16:59:18 IST" duration-ms="4103" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,27 +23,67 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="searchFlightTest()[pri:0, instance:com.ryanair.FlightSelectionTest@4f0100a7]" started-at="2025-04-08T14:41:45 IST" name="searchFlightTest" finished-at="2025-04-08T14:42:06 IST" duration-ms="21001" status="PASS">
+        <test-method signature="searchFlightTest()[pri:0, instance:com.ryanair.FlightSelectionTest@2a76840c]" started-at="2025-04-10T16:59:18 IST" name="searchFlightTest" finished-at="2025-04-10T16:59:30 IST" duration-ms="12179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchFlightTest -->
-        <test-method signature="selectFlightTest()[pri:0, instance:com.ryanair.FlightSelectionTest@4f0100a7]" started-at="2025-04-08T14:42:06 IST" name="selectFlightTest" finished-at="2025-04-08T14:42:23 IST" depends-on-methods="com.ryanair.FlightSelectionTest.searchFlightTest" duration-ms="17199" status="PASS">
+        <test-method signature="selectFlightTest()[pri:0, instance:com.ryanair.FlightSelectionTest@2a76840c]" started-at="2025-04-10T16:59:30 IST" name="selectFlightTest" finished-at="2025-04-10T16:59:37 IST" depends-on-methods="com.ryanair.FlightSelectionTest.searchFlightTest" duration-ms="6764" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectFlightTest -->
-        <test-method signature="selectSeatTest()[pri:0, instance:com.ryanair.FlightSelectionTest@4f0100a7]" started-at="2025-04-08T14:42:23 IST" name="selectSeatTest" finished-at="2025-04-08T14:42:40 IST" depends-on-methods="com.ryanair.FlightSelectionTest.selectFlightTest" duration-ms="16437" status="PASS">
+        <test-method signature="selectSeatTest()[pri:0, instance:com.ryanair.FlightSelectionTest@2a76840c]" started-at="2025-04-10T16:59:37 IST" name="selectSeatTest" finished-at="2025-04-10T16:59:46 IST" depends-on-methods="com.ryanair.FlightSelectionTest.selectFlightTest" duration-ms="8817" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectSeatTest -->
-        <test-method signature="bagSelectionTest()[pri:0, instance:com.ryanair.FlightSelectionTest@4f0100a7]" started-at="2025-04-08T14:42:40 IST" name="bagSelectionTest" finished-at="2025-04-08T14:42:40 IST" depends-on-methods="com.ryanair.FlightSelectionTest.selectSeatTest" duration-ms="394" status="PASS">
+        <test-method signature="bagSelectionTest()[pri:0, instance:com.ryanair.FlightSelectionTest@2a76840c]" started-at="2025-04-10T16:59:46 IST" name="bagSelectionTest" finished-at="2025-04-10T16:59:46 IST" depends-on-methods="com.ryanair.FlightSelectionTest.selectSeatTest" duration-ms="320" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bagSelectionTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ryanair.FlightSelectionTest@4f0100a7]" started-at="2025-04-08T14:42:40 IST" name="tearDown" finished-at="2025-04-08T14:42:40 IST" duration-ms="300" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ryanair.FlightSelectionTest@2a76840c]" started-at="2025-04-10T16:59:46 IST" name="tearDown" finished-at="2025-04-10T16:59:47 IST" duration-ms="541" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.ryanair.FlightSelectionTest -->
     </test> <!-- Linux-chrome -->
+    <test started-at="2025-04-10T16:59:14 IST" name="Linux-firefox" finished-at="2025-04-10T16:59:54 IST" duration-ms="40270">
+      <class name="com.ryanair.FlightSelectionTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.ryanair.FlightSelectionTest@9ef8eb7]" started-at="2025-04-10T16:59:14 IST" name="setup" finished-at="2025-04-10T16:59:23 IST" duration-ms="9234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchFlightTest()[pri:0, instance:com.ryanair.FlightSelectionTest@9ef8eb7]" started-at="2025-04-10T16:59:23 IST" name="searchFlightTest" finished-at="2025-04-10T16:59:37 IST" duration-ms="13707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFlightTest -->
+        <test-method signature="selectFlightTest()[pri:0, instance:com.ryanair.FlightSelectionTest@9ef8eb7]" started-at="2025-04-10T16:59:37 IST" name="selectFlightTest" finished-at="2025-04-10T16:59:45 IST" depends-on-methods="com.ryanair.FlightSelectionTest.searchFlightTest" duration-ms="8085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFlightTest -->
+        <test-method signature="selectSeatTest()[pri:0, instance:com.ryanair.FlightSelectionTest@9ef8eb7]" started-at="2025-04-10T16:59:45 IST" name="selectSeatTest" finished-at="2025-04-10T16:59:52 IST" depends-on-methods="com.ryanair.FlightSelectionTest.selectFlightTest" duration-ms="7050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSeatTest -->
+        <test-method signature="bagSelectionTest()[pri:0, instance:com.ryanair.FlightSelectionTest@9ef8eb7]" started-at="2025-04-10T16:59:52 IST" name="bagSelectionTest" finished-at="2025-04-10T16:59:53 IST" depends-on-methods="com.ryanair.FlightSelectionTest.selectSeatTest" duration-ms="650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bagSelectionTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ryanair.FlightSelectionTest@9ef8eb7]" started-at="2025-04-10T16:59:53 IST" name="tearDown" finished-at="2025-04-10T16:59:54 IST" duration-ms="1265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ryanair.FlightSelectionTest -->
+    </test> <!-- Linux-firefox -->
   </suite> <!-- Suite -->
 </testng-results>

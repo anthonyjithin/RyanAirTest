@@ -1925,3 +1925,137 @@
 2025-04-08 14:44:23 INFO  com.ryanair.FlightSelectionTest - Asserting bag selection page is loaded
 2025-04-08 14:44:23 INFO  com.ryanair.FlightSelectionTest - Assertion passed: Bag selection page loaded
 2025-04-08 14:44:23 INFO  com.ryanair.FlightSelectionTest - bagSelectionTest completed
+2025-04-10 16:59:14 INFO  base.BasePage - Running on OS: Linux, Browser: chrome
+2025-04-10 16:59:14 INFO  base.BasePage - Running on OS: Linux, Browser: firefox
+2025-04-10 16:59:14 INFO  base.BasePage - Setting up Local WebDriver
+2025-04-10 16:59:14 INFO  base.BasePage - Setting up Local WebDriver
+2025-04-10 16:59:18 INFO  base.BasePage - Navigated to URL: https://www.ryanair.com/
+2025-04-10 16:59:18 INFO  com.ryanair.FlightSelectionTest - ====== Starting Flight Selection Test ======
+2025-04-10 16:59:18 INFO  pageObjects.HomePage - Homepage initialized
+2025-04-10 16:59:18 INFO  com.ryanair.FlightSelectionTest - Accepting cookie popup
+2025-04-10 16:59:19 INFO  com.ryanair.FlightSelectionTest - RyanAir Website loaded successfully
+2025-04-10 16:59:19 INFO  com.ryanair.FlightSelectionTest - Selecting departure airport
+2025-04-10 16:59:20 INFO  pageObjects.HomePage - Departure selected
+2025-04-10 16:59:20 INFO  com.ryanair.FlightSelectionTest - Selecting destination airport
+2025-04-10 16:59:21 INFO  pageObjects.HomePage - Destination inserted
+2025-04-10 16:59:21 INFO  com.ryanair.FlightSelectionTest - Selecting departure date
+2025-04-10 16:59:22 INFO  pageObjects.HomePage - Homepage initialized
+2025-04-10 16:59:23 INFO  base.BasePage - Navigated to URL: https://www.ryanair.com/
+2025-04-10 16:59:23 INFO  com.ryanair.FlightSelectionTest - ====== Starting Flight Selection Test ======
+2025-04-10 16:59:23 INFO  pageObjects.HomePage - Homepage initialized
+2025-04-10 16:59:23 INFO  com.ryanair.FlightSelectionTest - Accepting cookie popup
+2025-04-10 16:59:25 INFO  com.ryanair.FlightSelectionTest - RyanAir Website loaded successfully
+2025-04-10 16:59:25 INFO  com.ryanair.FlightSelectionTest - Selecting departure airport
+2025-04-10 16:59:25 INFO  pageObjects.HomePage - Departure selected
+2025-04-10 16:59:25 INFO  com.ryanair.FlightSelectionTest - Selecting destination airport
+2025-04-10 16:59:26 INFO  pageObjects.HomePage - Destination inserted
+2025-04-10 16:59:26 INFO  com.ryanair.FlightSelectionTest - Selecting departure date
+2025-04-10 16:59:27 INFO  pageObjects.HomePage - Homepage initialized
+2025-04-10 16:59:29 INFO  com.ryanair.FlightSelectionTest - Selecting return date
+2025-04-10 16:59:29 INFO  pageObjects.HomePage - Homepage initialized
+2025-04-10 16:59:30 INFO  com.ryanair.FlightSelectionTest - Selecting passengers
+2025-04-10 16:59:30 INFO  com.ryanair.FlightSelectionTest - Clicking search button
+2025-04-10 16:59:30 INFO  com.ryanair.FlightSelectionTest - searchFlightTest completed
+2025-04-10 16:59:30 INFO  com.ryanair.FlightSelectionTest - ====== Starting selectFlightTest ======
+2025-04-10 16:59:30 INFO  pageObjects.FlightSelectionPage - FlightSelectionPage initialized
+2025-04-10 16:59:30 INFO  pageObjects.FlightSelectionPage - FlightSelectionPage initialized
+2025-04-10 16:59:32 INFO  com.ryanair.FlightSelectionTest - Trip details validated successfully
+2025-04-10 16:59:32 INFO  com.ryanair.FlightSelectionTest - Dublin to Naples flight has been selected successfully
+2025-04-10 16:59:32 INFO  com.ryanair.FlightSelectionTest - Selecting departure flight
+2025-04-10 16:59:32 INFO  pageObjects.FlightSelectionPage - Departure flight selected
+2025-04-10 16:59:33 INFO  com.ryanair.FlightSelectionTest - Naples to Dublin flight has been selected successfully
+2025-04-10 16:59:33 INFO  com.ryanair.FlightSelectionTest - Selecting arrival flight
+2025-04-10 16:59:33 INFO  pageObjects.FlightSelectionPage - Arrival flight selected successfully
+2025-04-10 16:59:33 INFO  com.ryanair.FlightSelectionTest - Selecting regular flight option
+2025-04-10 16:59:33 INFO  pageObjects.FlightSelectionPage - Regular fare selected
+2025-04-10 16:59:33 INFO  com.ryanair.FlightSelectionTest - Verifying login text visibility
+2025-04-10 16:59:34 INFO  com.ryanair.FlightSelectionTest - Selecting return date
+2025-04-10 16:59:34 INFO  pageObjects.HomePage - Homepage initialized
+2025-04-10 16:59:35 INFO  com.ryanair.FlightSelectionTest - Selecting passengers
+2025-04-10 16:59:35 INFO  com.ryanair.FlightSelectionTest - Clicking search button
+2025-04-10 16:59:35 INFO  com.ryanair.FlightSelectionTest - Assertion passed: Login text is visible
+2025-04-10 16:59:35 INFO  com.ryanair.FlightSelectionTest - Verifying passenger section is initially disabled
+2025-04-10 16:59:35 INFO  com.ryanair.FlightSelectionTest - Assertion passed: Passenger section is disabled
+2025-04-10 16:59:35 INFO  com.ryanair.FlightSelectionTest - Clicking 'Log in later' button
+2025-04-10 16:59:35 INFO  pageObjects.FlightSelectionPage - Clicking 'Login later' button
+2025-04-10 16:59:36 INFO  com.ryanair.FlightSelectionTest - Verifying passenger section is now enabled
+2025-04-10 16:59:36 INFO  com.ryanair.FlightSelectionTest - Assertion passed: Passenger section is enabled after clicking button
+2025-04-10 16:59:36 INFO  com.ryanair.FlightSelectionTest - Entering passenger details
+2025-04-10 16:59:37 INFO  com.ryanair.FlightSelectionTest - Clicking continue button
+2025-04-10 16:59:37 INFO  pageObjects.FlightSelectionPage - Clicking continue button
+2025-04-10 16:59:37 INFO  com.ryanair.FlightSelectionTest - searchFlightTest completed
+2025-04-10 16:59:37 INFO  com.ryanair.FlightSelectionTest - ====== Starting selectFlightTest ======
+2025-04-10 16:59:37 INFO  pageObjects.FlightSelectionPage - FlightSelectionPage initialized
+2025-04-10 16:59:37 INFO  pageObjects.FlightSelectionPage - FlightSelectionPage initialized
+2025-04-10 16:59:37 INFO  com.ryanair.FlightSelectionTest - selectFlightTest completed
+2025-04-10 16:59:37 INFO  com.ryanair.FlightSelectionTest - ====== Starting selectSeatTest ======
+2025-04-10 16:59:37 INFO  pageObjects.SeatSelectionPage - SeatSelectionPage initialized
+2025-04-10 16:59:37 INFO  com.ryanair.FlightSelectionTest - Asserting departure flight seat selection is active
+2025-04-10 16:59:38 INFO  com.ryanair.FlightSelectionTest - Trip details validated successfully
+2025-04-10 16:59:38 INFO  com.ryanair.FlightSelectionTest - Dublin to Naples flight has been selected successfully
+2025-04-10 16:59:38 INFO  com.ryanair.FlightSelectionTest - Selecting departure flight
+2025-04-10 16:59:39 INFO  pageObjects.FlightSelectionPage - Departure flight selected
+2025-04-10 16:59:39 INFO  com.ryanair.FlightSelectionTest - Naples to Dublin flight has been selected successfully
+2025-04-10 16:59:39 INFO  com.ryanair.FlightSelectionTest - Selecting arrival flight
+2025-04-10 16:59:40 INFO  pageObjects.FlightSelectionPage - Arrival flight selected successfully
+2025-04-10 16:59:40 INFO  com.ryanair.FlightSelectionTest - Selecting regular flight option
+2025-04-10 16:59:41 INFO  com.ryanair.FlightSelectionTest - Assertion passed: Departure flight DUB - NAP is active
+2025-04-10 16:59:41 INFO  com.ryanair.FlightSelectionTest - Selecting departure seat
+2025-04-10 16:59:41 INFO  pageObjects.SeatSelectionPage - SeatSelectionPage initialized
+2025-04-10 16:59:41 INFO  pageObjects.FlightSelectionPage - Regular fare selected
+2025-04-10 16:59:41 INFO  com.ryanair.FlightSelectionTest - Verifying login text visibility
+2025-04-10 16:59:41 INFO  utils.Utility - Selected seat-05C
+2025-04-10 16:59:41 INFO  com.ryanair.FlightSelectionTest - Seat selected successfully for departure flight
+2025-04-10 16:59:41 INFO  com.ryanair.FlightSelectionTest - Clicking next flight button
+2025-04-10 16:59:42 INFO  com.ryanair.FlightSelectionTest - Closing 'No Thanks' prompt
+2025-04-10 16:59:42 INFO  com.ryanair.FlightSelectionTest - Assertion passed: Login text is visible
+2025-04-10 16:59:42 INFO  com.ryanair.FlightSelectionTest - Verifying passenger section is initially disabled
+2025-04-10 16:59:42 INFO  com.ryanair.FlightSelectionTest - Assertion passed: Passenger section is disabled
+2025-04-10 16:59:42 INFO  com.ryanair.FlightSelectionTest - Clicking 'Log in later' button
+2025-04-10 16:59:42 INFO  pageObjects.FlightSelectionPage - Clicking 'Login later' button
+2025-04-10 16:59:42 INFO  com.ryanair.FlightSelectionTest - Verifying passenger section is now enabled
+2025-04-10 16:59:42 INFO  com.ryanair.FlightSelectionTest - Asserting arrival flight seat selection is active
+2025-04-10 16:59:42 INFO  com.ryanair.FlightSelectionTest - Assertion passed: Passenger section is enabled after clicking button
+2025-04-10 16:59:42 INFO  com.ryanair.FlightSelectionTest - Entering passenger details
+2025-04-10 16:59:42 INFO  com.ryanair.FlightSelectionTest - Assertion passed: Arrival flight NAP - DUB is active
+2025-04-10 16:59:42 INFO  com.ryanair.FlightSelectionTest - Selecting arrival seat
+2025-04-10 16:59:42 INFO  pageObjects.SeatSelectionPage - SeatSelectionPage initialized
+2025-04-10 16:59:43 INFO  utils.Utility - Selected seat-10C
+2025-04-10 16:59:43 INFO  com.ryanair.FlightSelectionTest - Seat selected successfully for arrival flight
+2025-04-10 16:59:43 INFO  com.ryanair.FlightSelectionTest - Clicking continue button after seat selection
+2025-04-10 16:59:43 INFO  pageObjects.SeatSelectionPage - Selecting continue to seat
+2025-04-10 16:59:43 INFO  com.ryanair.FlightSelectionTest - Closing fast track prompt
+2025-04-10 16:59:43 INFO  com.ryanair.FlightSelectionTest - Clicking continue button
+2025-04-10 16:59:43 INFO  pageObjects.FlightSelectionPage - Clicking continue button
+2025-04-10 16:59:45 INFO  com.ryanair.FlightSelectionTest - selectFlightTest completed
+2025-04-10 16:59:45 INFO  com.ryanair.FlightSelectionTest - ====== Starting selectSeatTest ======
+2025-04-10 16:59:45 INFO  pageObjects.SeatSelectionPage - SeatSelectionPage initialized
+2025-04-10 16:59:45 INFO  com.ryanair.FlightSelectionTest - Asserting departure flight seat selection is active
+2025-04-10 16:59:46 INFO  com.ryanair.FlightSelectionTest - selectSeatTest completed
+2025-04-10 16:59:46 INFO  com.ryanair.FlightSelectionTest - ====== Starting bagSelectionTest ======
+2025-04-10 16:59:46 INFO  pageObjects.BagSelectionPage - BagSelectionPage initialized
+2025-04-10 16:59:46 INFO  com.ryanair.FlightSelectionTest - Asserting bag selection page is loaded
+2025-04-10 16:59:46 INFO  com.ryanair.FlightSelectionTest - Assertion passed: Bag selection page loaded
+2025-04-10 16:59:46 INFO  com.ryanair.FlightSelectionTest - bagSelectionTest completed
+2025-04-10 16:59:47 INFO  com.ryanair.FlightSelectionTest - Assertion passed: Departure flight DUB - NAP is active
+2025-04-10 16:59:47 INFO  com.ryanair.FlightSelectionTest - Selecting departure seat
+2025-04-10 16:59:47 INFO  pageObjects.SeatSelectionPage - SeatSelectionPage initialized
+2025-04-10 16:59:48 INFO  utils.Utility - Selected seat-20D
+2025-04-10 16:59:48 INFO  com.ryanair.FlightSelectionTest - Seat selected successfully for departure flight
+2025-04-10 16:59:48 INFO  com.ryanair.FlightSelectionTest - Clicking next flight button
+2025-04-10 16:59:48 INFO  com.ryanair.FlightSelectionTest - Closing 'No Thanks' prompt
+2025-04-10 16:59:48 INFO  com.ryanair.FlightSelectionTest - Asserting arrival flight seat selection is active
+2025-04-10 16:59:49 INFO  com.ryanair.FlightSelectionTest - Assertion passed: Arrival flight NAP - DUB is active
+2025-04-10 16:59:49 INFO  com.ryanair.FlightSelectionTest - Selecting arrival seat
+2025-04-10 16:59:49 INFO  pageObjects.SeatSelectionPage - SeatSelectionPage initialized
+2025-04-10 16:59:49 INFO  utils.Utility - Selected seat-03B
+2025-04-10 16:59:49 INFO  com.ryanair.FlightSelectionTest - Seat selected successfully for arrival flight
+2025-04-10 16:59:49 INFO  com.ryanair.FlightSelectionTest - Clicking continue button after seat selection
+2025-04-10 16:59:49 INFO  pageObjects.SeatSelectionPage - Selecting continue to seat
+2025-04-10 16:59:49 INFO  com.ryanair.FlightSelectionTest - Closing fast track prompt
+2025-04-10 16:59:52 INFO  com.ryanair.FlightSelectionTest - selectSeatTest completed
+2025-04-10 16:59:52 INFO  com.ryanair.FlightSelectionTest - ====== Starting bagSelectionTest ======
+2025-04-10 16:59:52 INFO  pageObjects.BagSelectionPage - BagSelectionPage initialized
+2025-04-10 16:59:52 INFO  com.ryanair.FlightSelectionTest - Asserting bag selection page is loaded
+2025-04-10 16:59:53 INFO  com.ryanair.FlightSelectionTest - Assertion passed: Bag selection page loaded
+2025-04-10 16:59:53 INFO  com.ryanair.FlightSelectionTest - bagSelectionTest completed

@@ -35,8 +35,7 @@ public class FlightSelectionPage extends TestUtility {
 	@FindBy(xpath = "//div[contains(@class,'details__bottom-bar')]")
 	private WebElement section;
 
-	@FindBy(css = "[class='header__title title-m-lg title-m-sm ng-tns-c3370537487-5']")
-	private WebElement departureFlightText;
+	By departureFlightText = By.xpath("//h3[contains(normalize-space(), 'Dublin to Naples')]");
 
 
 	@FindBy(xpath = "//h3[contains(normalize-space(), 'Naples to Dublin')]")
@@ -69,8 +68,7 @@ public class FlightSelectionPage extends TestUtility {
 	@FindBy(xpath = "//html//body//app-root//flights-root//div//div//div//div//flights-lazy-content//ng-component//div//continue-flow-container")
 	private WebElement continueBtn;
 
-	@FindBy(css = "ry-dropdown-item:nth-of-type(1) .body-l-lg.body-l-sm.dropdown-item__label")
-	private WebElement passengerTitleSelect;
+	By passengerTitleSelect = By.xpath("//div[contains(@class,'dropdown-item__label') and normalize-space()='Mr']");
 
 	// getter methods
 
@@ -86,7 +84,7 @@ public class FlightSelectionPage extends TestUtility {
 
 	// Method to load the departure flight text
 	public String getDepartureFlightText() {
-		String departureFlight = departureFlightText.getText().trim();
+		String departureFlight = getDriver().findElement(departureFlightText).getText().trim();
 		return departureFlight;
 	}
 	 
@@ -171,7 +169,7 @@ public class FlightSelectionPage extends TestUtility {
 		scrollIntoView(passengerTitleBtn);
 		waitForElementClick(passengerTitleBtn, Duration.ofSeconds(15));
 		passengerTitleBtn.click();
-		passengerTitleSelect.click();
+		getDriver().findElement(passengerTitleSelect).click();
 		passengerFirstName.sendKeys(firstName);
 		passengerLastName.sendKeys(lastName);
 
