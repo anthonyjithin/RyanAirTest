@@ -7,6 +7,7 @@ import java.util.List;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -98,7 +99,14 @@ public class HomePage extends TestUtility {
 	}
 	//before selecting the depart date, driver wait for element to be ready for click
 	public void selectDepartDate() throws IOException, InterruptedException {
-		waitForElementClick(departDate, Duration.ofSeconds(15));
+		for (int i = 0; i < 2; i++) {
+			try {
+				waitForElementClick(departDate, Duration.ofSeconds(15));
+				break;
+			}catch(StaleElementReferenceException e) {
+				logger.info("Stale element caught, retrying ");
+			}
+		}
 	}
 	//driver wait is given for the element to be ready for click
 	public void selectReturnDate() throws IOException {
